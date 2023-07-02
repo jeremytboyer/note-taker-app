@@ -5,12 +5,21 @@
     margin-right: .2em
 }
 
+#save {
+    font-size: 1.8em;
+    color: white;
+    font-weight: 900;
+    margin-right: .2em;
+    margin-top: 3px;
+    display: none;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     background: darkcyan;
     padding: 1%;
-
+    align-items: center;
 }
 
 h3 {
@@ -55,4 +64,5 @@ main {
 
 #note-text {
     border: none;
+    width: 500px;
 }

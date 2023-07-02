@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/jass.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/jass.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Note Taking App</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <h3>Note Taker</h3>
+      <h3>Note Taker</h3>
+      <div class="display-flex align-center">
+        <i class="bi bi-save" id="save"></i>
         <i class="bi bi-plus" id="plus"></i>
+      </div>
     </nav>
     <main>
-        <section class="notes">
-            <div class="note">
-                <p>Note Title</p>
-                <i class="bi bi-trash3-fill trash"></i>
-            </div>
-        </section>
-        <section class="new-note">
-            <input id="title" placeholder="New Note Title">
-            <input id="note-text" placeholder="Enter Note text">
-        </section>
+      <section class="notes">
+        <div class="note">
+          <p>Note Title</p>
+          <i class="bi bi-trash3-fill trash"></i>
+        </div>
+      </section>
+      <section class="new-note">
+        <input id="title" placeholder="New Note Title" />
+        <textarea id="note-text" placeholder="Enter Note text"></textarea>
+      </section>
     </main>
-    <script src="./js/browser.js"></script>
-</body>
+    <script src="/js/browser.js"></script>
+  </body>
 </html>
