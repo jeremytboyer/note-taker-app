@@ -11,6 +11,10 @@
     font-weight: 900;
     margin-right: .2em;
     margin-top: 3px;
+    
+}
+
+.hidden {
     display: none;
 }
 
