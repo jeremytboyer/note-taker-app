@@ -22,15 +22,12 @@
     </nav>
     <main>
       <section class="notes">
-        <div class="note">
-          <p>Note Title</p>
-          <i class="bi bi-trash3-fill trash"></i>
-        </div>
+        
       </section>
       <section class="new-note">
-        <form action="/notes" id="note-form" method="POST">
-        <input id="title" placeholder="New Note Title" />
-        <textarea id="note-text" placeholder="Enter Note text"></textarea>
+        <form action="/api/notes" id="note-form" method="POST">
+        <input name="title" id="title" placeholder="New Note Title" />
+        <textarea name="note" id="note-text" placeholder="Enter Note text"></textarea>
     </form>
       </section>
     </main>
