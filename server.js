@@ -3,6 +3,7 @@ const app = express();
 const path = require("path");
 const { Note, getNotes } = require("./models/Note");
 const fs = require("fs");
+const PORT = process.env.PORT || 3000
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static("public"));
@@ -33,4 +34,4 @@ app.get("*", (clientReq, serverRes) => {
   serverRes.sendFile(path.join(__dirname, "/public/index.html"));
 });
 
-app.listen(3333, () => console.log("port running on 3333"));
+app.listen(PORT, () => console.log("port running on 3333"));
