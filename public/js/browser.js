@@ -49,6 +49,15 @@ document.addEventListener("DOMContentLoaded", function () {
             }
           });
         });
+
+        const trash = document.querySelectorAll('.trash')
+        trash.forEach(el => {
+          el.addEventListener('click', (e) => {
+            const noteId = e.currentTarget.parentElement.dataset.noteId;
+            deleteNote(noteId)
+            location.reload()
+          })
+        })
       });
   }
 
@@ -57,5 +66,12 @@ document.addEventListener("DOMContentLoaded", function () {
     noteVal.value= ''
   })
 
+  function deleteNote(noteId) {
+    fetch(`/api/notes/${noteId}`, {
+      method: 'DELETE'
+    })
+  }
   outputNotes();
+  
+  
 });
