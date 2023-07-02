@@ -46,6 +46,7 @@ main {
     border-bottom: 2px solid #bbb;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .note p {
