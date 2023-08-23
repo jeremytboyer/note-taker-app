@@ -1,47 +1,32 @@
 # Note Taker App
-## ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Table of Contents
 - [Project Description](#project-description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contribution Guidelines](#contribution-guidelines)
-- [Contributors](#contributors)
-- [Tests](#test)
 - [Questions](#questions) 
 
 ## Project Description
-
-An app to take notes
+Elevate your productivity with the Note Taker App. Seamlessly jot down and organize notes, transforming your ideas into actionable tasks.
 
 ## Installation 
-
-npm -i
+Simply run `npm -i` to install the app and get started.
 
 ## Usage 
+[Live Url](https://jerms-note-taker-app-c559a189b04b.herokuapp.com/)
 
-Enter a note title and text, click the save button to save your note.  To view your notes simply click on the desired note. To delete, click on the corresponding note trash can. To add a new note at any time click the plus symbol.
+Effortlessly create notes by providing a title and text, then save with a click. Access your notes by clicking on them. Delete unwanted notes by clicking the trash can icon. Easily add new notes anytime using the plus symbol.
 
-![website screenshot](./screenshot.png)
+![Website Screenshot](./screenshot.png)
 
 ## License
-
 This project is licensed under the MIT license.
 
-## Contribution Guidelines
-
-Anyone can contribute 
-## Contributors 
-
-
-
-## Tests 
-
-
-
 ## Questions
+For more information, feel free to contact:
 
-Github: [jeremytboyer](https://github.com/jeremytboyer)
+GitHub: [jeremytboyer](https://github.com/jeremytboyer)
 
 Email: [jeremytboyer@gmail.com](mailto:jeremytboyer@gmail.com)
